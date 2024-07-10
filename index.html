@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>chess_board</title>
+    <style>
+        .chess{
+            margin-top:4%;
+            margin-left: 20%;
+        }
+        .row1{
+            display: flex;  
+        }
+        .one{
+            text-align: center; 
+            padding-bottom: 1%;        
+            border: 2px solid;
+            height: 8vh;
+            width: 8vw;
+            font-size: 200%; 
+            background-color:rgb(251, 165, 228) ;  
+        }
+        /* rgb(223, 143, 235) */
+        .box2, .box4, .box6, .box8{
+            background-color:white;
+        }
+        .box9, .box11, .box13, .box15{
+            background-color: white;
+        }
+        .box18, .box20, .box22, .box24{
+            background-color: white
+        }
+        .box25, .box27, .box29, .box31{
+            background-color: white;
+        }
+        .box34, .box36, .box38, .box40{
+            background-color: white;
+        }
+        .box41, .box43, .box45, .box47{
+            background-color: white;
+        }
+        .box50, .box52, .box54, .box56{
+            background-color: white;
+        }
+        .box57, .box59, .box61, .box63{
+            background-color: white;
+        }
+        .one:hover{
+            background-color: rgb(0, 255, 34);
+            font-size: 4vw;
+            color:rgb(251, 5, 5);
+            border: 2px solid white;
+        }
+        .chess .row1{
+            transform: perspective(400px) rotatez(90deg);
+            transform-origin: left;
+        }
+        .chess:hover .row1{
+            transform: perspective(400px) rotatez(0deg);
+            transition: all 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="chess">
+        <div class="row1">
+            <div class="one box1">&#x265C;</div>
+            <div class="one box2">&#x265E;</div>
+            <div class="one box3">&#x265D;</div>
+            <div class="one box4">&#x265B;</div>
+            <div class="one box5">&#x265A;</div>
+            <div class="one box6">&#x265D;</div>
+            <div class="one box7">&#x265E;</div>
+            <div class="one box8">&#x265C;</div>
+        </div>
+        <div class="row1">
+            <div class="one box9">&#x265F;</div>
+            <div class="one box10">&#x265F;</div>
+            <div class="one box11">&#x265F;</div>
+            <div class="one box12">&#x265F;</div>
+            <div class="one box13">&#x265F;</div>
+            <div class="one box14">&#x265F;</div>
+            <div class="one box15">&#x265F;</div>
+            <div class="one box16">&#x265F;</div>
+        </div>
+        <div class="row1">
+            <div class="one box17"></div>
+            <div class="one box18"></div>
+            <div class="one box19"></div>
+            <div class="one box20"></div>
+            <div class="one box21"></div>
+            <div class="one box22"></div>
+            <div class="one box23"></div>
+            <div class="one box24"></div>
+        </div>
+        <div class="row1">
+            <div class="one box25"></div>
+            <div class="one box26"></div>
+            <div class="one box27"></div>
+            <div class="one box28"></div>
+            <div class="one box29"></div>
+            <div class="one box30"></div>
+            <div class="one box31"></div>
+            <div class="one box32"></div>
+        </div>
+        <div class="row1">
+            <div class="one box33"></div>
+            <div class="one box34"></div>
+            <div class="one box35"></div>
+            <div class="one box36"></div>
+            <div class="one box37"></div>
+            <div class="one box38"></div>
+            <div class="one box39"></div>
+            <div class="one box40"></div>
+        </div>
+        <div class="row1">
+            <div class="one box41"></div>
+            <div class="one box42"></div>
+            <div class="one box43"></div>
+            <div class="one box44"></div>
+            <div class="one box45"></div>
+            <div class="one box46"></div>
+            <div class="one box47"></div>
+            <div class="one box48"></div>
+        </div>
+        <div class="row1">
+            <div class="one box49">&#x2659;</div>
+            <div class="one box50">&#x2659;</div>
+            <div class="one box51">&#x2659;</div>
+            <div class="one box52">&#x2659;</div>
+            <div class="one box53">&#x2659;</div>
+            <div class="one box54">&#x2659;</div>
+            <div class="one box55">&#x2659;</div>
+            <div class="one box56">&#x2659;</div>
+        </div>
+        <div class="row1">
+            <div class="one box57">&#x2656;</div>
+            <div class="one box58">&#x2658;</div>
+            <div class="one box59">&#x2657;</div>
+            <div class="one box60">&#x2655;</div>
+            <div class="one box61">&#x2654;</div>
+            <div class="one box62">&#x2657;</div>
+            <div class="one box63">&#x2658;</div>
+            <div class="one box64">&#x2656;</div>
+        </div>
+    </div> 
+   
+</body>
+</html>
